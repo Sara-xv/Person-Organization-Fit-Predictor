@@ -61,38 +61,7 @@
 
 ---
 
-## 🎯 اهداف پروژه
-
-* تحلیل رابطه ویژگی‌های شخصیتی و محیط کاری
-* بررسی تأثیر سبک‌های مختلف مدیریتی بر کارکنان
-* پیش‌بینی میزان انطباق فرد با سازمان
-* شناسایی عوامل مؤثر بر کاهش یا افزایش سازگاری شغلی
-* کمک به تصمیم‌گیری‌های منابع انسانی مبتنی بر داده
-
----
-
-## 📈 تحلیل‌های انجام‌شده
-
-در این پروژه تحلیل‌های مختلفی بر روی داده‌ها انجام شده است:
-
-### 👤 Personality Analysis
-
-* تحلیل توزیع ویژگی‌های شخصیتی کارکنان
-* بررسی تفاوت تیپ‌های شخصیتی در دپارتمان‌های مختلف
-* تحلیل ارتباط میان صفات شخصیتی و امتیاز انطباق
-
-### 🏢 Organizational Analysis
-
-* مقایسه عملکرد سبک‌های مختلف مدیریتی
-* بررسی سازگاری کارکنان در واحدهای مختلف سازمان
-* تحلیل تأثیر سابقه کاری بر انطباق سازمانی
-
-### 🎯 Predictive Analysis
-
-* پیش‌بینی سطح انطباق کارکنان
-* شناسایی مهم‌ترین متغیرهای اثرگذار
-* ارزیابی عملکرد مدل‌های یادگیری ماشین
-
+## 
 ---
 
 ## 🛠️ ابزارها و فناوری‌ها
@@ -125,3 +94,97 @@
 * Dashboard Development
 
 این پروژه نمونه‌ای از کاربرد علم داده در حل مسائل واقعی منابع انسانی و بهبود تصمیم‌گیری‌های سازمانی مبتنی بر داده است.
+
+# 🧠 Person–Organization Fit Predictor
+
+This project was developed to evaluate and predict how well employees align with an organization's culture, work environment, and managerial structure. By combining concepts from **Organizational Psychology, Data Analytics, and Machine Learning**, the project aims to measure the level of **Person–Organization (P–O) Fit** for employees.
+
+The primary objective is to support Human Resources (HR) teams in identifying employees who may struggle to adapt to their current work environment, experience job dissatisfaction, or become at risk of leaving the organization.
+
+---
+
+## 🏢 Business Scenario
+
+The technology company **SynapseTech** has recently faced a hidden organizational challenge. Despite offering competitive salaries and attractive benefits, some employees experience declining performance, reduced engagement, and increased turnover intentions after joining the company.
+
+Initial investigations revealed that the problem is not solely related to technical skills or compensation. In many cases, a mismatch between employees' personality traits, organizational culture, departmental environment, and leadership styles plays a significant role.
+
+As a Data Scientist, your mission is to develop a predictive model capable of estimating each employee's level of organizational fit and providing valuable insights to HR teams for recruitment, retention, and internal mobility decisions.
+
+---
+
+## 📊 Dataset Overview
+
+The dataset contains information about **10,000 employees** and **12 features** related to personality traits, workplace preferences, and organizational characteristics.
+
+### Dataset Information
+
+```text
+➤ Rows             10,000
+➤ Columns              12
+```
+
+### Features
+
+| Column                      | Description                                               |
+| --------------------------- | --------------------------------------------------------- |
+| employee_id                 | Unique employee identifier                                |
+| department                  | Employee department                                       |
+| manager_leadership_style    | Leadership style of the direct manager                    |
+| pers_openness               | Openness to experience score                              |
+| pers_conscientiousness      | Conscientiousness score                                   |
+| pers_extraversion           | Extraversion score                                        |
+| pers_agreeableness          | Agreeableness score                                       |
+| pers_neuroticism            | Neuroticism score                                         |
+| work_flexibility_preference | Preference for workplace flexibility                      |
+| years_at_company            | Employee tenure within the company                        |
+| p_o_fit_score               | Person–Organization Fit score                             |
+| fit_eligibility_class       | Final organizational fit classification (Target Variable) |
+
+---
+
+## 🧠 Synthetic Yet Realistic Data Design
+
+Although the dataset is synthetically generated, its structure is based on well-established principles from **Organizational Psychology**, **Behavioral Science**, and **Human Resource Management**.
+
+The data generation process incorporates realistic relationships and behavioral patterns commonly observed in modern organizations, creating a simulation environment that closely resembles real-world workplace dynamics.
+
+### Examples of Embedded Business Rules
+
+* Employees with **high extraversion** tend to perform better in sales and customer-facing roles.
+* Individuals with **high openness to experience** generally adapt more effectively to flexible and innovative leadership styles.
+* Highly controlling management approaches (**Micromanagement**) may reduce the organizational fit of creative and independent employees.
+* Employee tenure and workplace flexibility preferences also influence overall organizational fit scores.
+
+---
+
+## 🛠️ Technologies & Tools
+
+| Category                | Technologies        |
+| ----------------------- | ------------------- |
+| Data Analysis           | Pandas, NumPy       |
+| Data Visualization      | Matplotlib, Seaborn |
+| Machine Learning        | Scikit-Learn        |
+| Model Persistence       | Joblib              |
+| Interactive Dashboard   | Streamlit           |
+| Development Environment | Jupyter Notebook    |
+
+---
+
+## 📄 Analytical Report
+
+ * Detailed Step-by-Step Analysis and Evidence-Based Practical Suggestions
+---
+
+## 🎓 Project Purpose
+
+This project was developed to strengthen practical skills in:
+
+* Data Analysis
+* Organizational Analytics
+* Human Resources Analytics (HR Analytics)
+* Machine Learning
+* Predictive Modeling
+* Dashboard Development
+
+It demonstrates how Data Science can be applied to solve real-world HR challenges and support data-driven organizational decision-making.
